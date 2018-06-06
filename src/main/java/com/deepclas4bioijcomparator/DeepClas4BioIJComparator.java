@@ -1,4 +1,4 @@
-package com.comparadormodelos;
+package com.deepclas4bioijcomparator;
 
 import ij.IJ;
 import ij.ImagePlus;
@@ -36,7 +36,7 @@ import ij.measure.ResultsTable;
  *
  * @author adines
  */
-@Plugin(type = Command.class, headless = true, menuPath = "Plugins>ComparadorModelos")
+@Plugin(type = Command.class, headless = true, menuPath = "Plugins>DeepClas4BioIJComparator")
 public class DeepClas4BioIJComparator implements Command {
 
     @Parameter
