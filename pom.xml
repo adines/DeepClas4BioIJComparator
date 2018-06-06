@@ -53,7 +53,7 @@
     </ciManagement>
     
     <properties>
-        <main-class>ComparadorModelos</main-class>
+        <main-class>DeepClas4BioIJComparator</main-class>
         <license.licenseName>bsd_2</license.licenseName>
         <license.copyrightOwners>University of La Rioja</license.copyrightOwners>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

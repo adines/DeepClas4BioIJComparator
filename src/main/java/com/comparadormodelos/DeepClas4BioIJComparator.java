@@ -37,7 +37,7 @@ import ij.measure.ResultsTable;
  * @author adines
  */
 @Plugin(type = Command.class, headless = true, menuPath = "Plugins>ComparadorModelos")
-public class ComparadorModelos implements Command {
+public class DeepClas4BioIJComparator implements Command {
 
     @Parameter
     private String pathAPI;
@@ -184,11 +184,11 @@ public class ComparadorModelos implements Command {
                         modelChoices.doLayout();
                         gd.doLayout();
                     } catch (InterruptedException ex) {
-                        Logger.getLogger(ComparadorModelos.class.getName()).log(Level.SEVERE, null, ex);
+                        Logger.getLogger(DeepClas4BioIJComparator.class.getName()).log(Level.SEVERE, null, ex);
                     } catch (IOException ex) {
-                        Logger.getLogger(ComparadorModelos.class.getName()).log(Level.SEVERE, null, ex);
+                        Logger.getLogger(DeepClas4BioIJComparator.class.getName()).log(Level.SEVERE, null, ex);
                     } catch (ParseException ex) {
-                        Logger.getLogger(ComparadorModelos.class.getName()).log(Level.SEVERE, null, ex);
+                        Logger.getLogger(DeepClas4BioIJComparator.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 }
             });
@@ -221,13 +221,13 @@ public class ComparadorModelos implements Command {
             rt.show("Predictions");
 
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(ComparadorModelos.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(DeepClas4BioIJComparator.class.getName()).log(Level.SEVERE, null, ex);
         } catch (InterruptedException ex) {
-            Logger.getLogger(ComparadorModelos.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(DeepClas4BioIJComparator.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
-            Logger.getLogger(ComparadorModelos.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(DeepClas4BioIJComparator.class.getName()).log(Level.SEVERE, null, ex);
         } catch (ParseException ex) {
-            Logger.getLogger(ComparadorModelos.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(DeepClas4BioIJComparator.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
